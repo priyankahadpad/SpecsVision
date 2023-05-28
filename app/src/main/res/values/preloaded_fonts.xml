@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/aclonica</item>
+        <item>@font/baloo</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/chonburi</item>
+        <item>@font/galindo</item>
+        <item>@font/suez_one</item>
+    </array>
+</resources>

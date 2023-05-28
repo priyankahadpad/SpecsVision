@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:fontFamily="@font/baloo"
+      android:selectAllOnFocus="false"
+      android:text="Trackable Specs Steps:"
+      android:textSize="30sp"
+      android:textStyle="bold">
+
+  </TextView>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/baloo"
+        android:padding="5dp"
+        android:text="STEPS TO GENERATE TRACKABLE QR-CODE"
+        android:textSize="25sp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@id/text"
+        android:layout_toRightOf="@id/text"
+        android:padding="5dp"
+        app:srcCompat="@drawable/qr_codes_image" />
+
+  </RelativeLayout>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="35dp"
+      android:fontFamily="@font/aclonica"
+      android:text="1) Create Google Form."
+      android:textSize="20sp"
+      android:textStyle="bold"></TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/baloo"
+      android:text="-->Click on STEP 1 Button"
+      android:textSize="20sp">
+
+  </TextView>
+
+  <Button
+      android:id="@+id/Step1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Step 1"
+      android:textColor="#FDFAFA"
+      android:textColorHint="#FFFFFF"
+      app:backgroundTint="#000000">
+
+  </Button>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:fontFamily="@font/aclonica"
+      android:text="2) Generate QR-Code."
+      android:textSize="20sp"
+      android:textStyle="bold">
+
+  </TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/baloo"
+      android:text="-->Click on STEP 2 Button"
+      android:textSize="20sp">
+
+  </TextView>
+
+  <Button
+      android:id="@+id/Step2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Step 2"
+      app:backgroundTint="#000000">
+
+  </Button>
+
+
+</LinearLayout>
+
