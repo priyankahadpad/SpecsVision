@@ -1,2 +1,5 @@
 # SpecsVision
- SpecsVision is a Android app that uses a Google Form and QR Code to track down the owner of lost eyewear. combined with a recycler view mobile commerce application for eyewear. Along with login and sign up page.
+
+ ![image](https://github.com/priyankahadpad/SpecsVision/assets/44131168/fb91bd23-ceb2-4f4a-9763-c09e4acd1c68)
+![image](https://github.com/priyankahadpad/SpecsVision/assets/44131168/7323b4cb-0782-4052-a4f0-a0ba4622fee2)
+
